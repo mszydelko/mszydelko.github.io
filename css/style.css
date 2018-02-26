@@ -1,7 +1,9 @@
-html {
+* {
     margin: 0;
     padding: 0;
-    border: 0;
+}
+
+html {
     vertical-align: baseline;
 }
 
@@ -29,13 +31,6 @@ body {
 }
 
 /*MENU*/
-
-h2 {
-    -webkit-margin-before: 0;
-    -webkit-margin-after: 0;
-    -webkit-margin-start: 0;
-    -webkit-margin-end: 0;
-}
 
 header,
 nav,
@@ -118,13 +113,14 @@ header {
 .main--quote p{
     text-decoration: none;
     color: #fff;
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     margin: 0 auto;
     font-size: 14px;
     width: 80%;
 }
 
 .main--quote>h1 {
+    padding: 20px 0;
     font-size: 28px;
     color: #fff;
     text-transform: uppercase;
@@ -147,19 +143,21 @@ header {
     text-align: center;
     font-size: 50px;
     color: #1e0035;
+
 }
 
 .why_us--4>h2 {
     color: #000;
     font-size: 16px;
     text-transform: uppercase;
-    padding-top: 15px;
+    padding: 15px 0 ;
 }
 
 .why_us--4>p{
     font-size: 16px;
     text-align: center;
     color: #666666;
+    padding: 0 5px;
 }
 
 /*CLIENTS*/
@@ -169,9 +167,8 @@ header {
     text-align: center;
 }
 
-.clients>h2{
-    padding-top: 40px;
-    padding-bottom: 10px;
+.clients h2{
+    padding: 40px 0 20px 0;
     font-size: 30px;
     text-transform: uppercase;
     color: #FBC682;
@@ -205,7 +202,7 @@ header {
 }
 
 .about_text {
-    padding: 50px 10px 10px 10px;
+    padding: 60px 10px 10px 10px;
     width: 100%;
     font-size: 16px;
     text-indent: 20px;
@@ -214,8 +211,13 @@ header {
 }
 
 .about_text>h2 {
-    margin-top: 0;
+    padding-bottom: 20px;
 }
+
+.about_text>p {
+    padding-bottom: 10px;
+}
+
 
 .wrapper_all {
     border-top: 1px solid lightgrey;
@@ -233,6 +235,7 @@ header {
 }
 
 .newsletter form h1 {
+    padding: 20px 0;
     font-size: 30px;
     font-weight: bold;
     text-transform: uppercase;
